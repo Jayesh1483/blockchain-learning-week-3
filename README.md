@@ -38,7 +38,7 @@ This repository contains assignments for Week 3 of the Blockchain Learning curri
     2. Lend their "AdvancedToken" to earn interest.
     3. Borrow against their "AdvancedToken" holdings.
     4. Sketch out the primary smart contracts needed, their primary functions, and how they interact, code is not needed, just provide a HLD.
-   - File: `Exercise20`
+ -   File: `Exercise20`
 
 ## Test the Code:
 To tests the code, you can run it in the Visual Studio Code debugger terminal and Remix IDE. All exercises would require, hardhat Open Zepplin libraries, solidity debugger and node.js extensions to be installed for Visual Studio Debugger. 
