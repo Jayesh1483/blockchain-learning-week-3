@@ -1,6 +1,6 @@
 const { assert } = require('chai');
 
-const AdvancedToken = artifacts.require('AdvancedToken');
+const AdvancedToken = artifacts.require('Advancedtoken');
 
 contract('AdvancedToken', (accounts) => {
   let advancedToken;
