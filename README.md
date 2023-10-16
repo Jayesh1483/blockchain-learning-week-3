@@ -10,7 +10,7 @@ This repository contains assignments for Week 3 of the Blockchain Learning curri
     - **Timed Lock:** Implement a mechanism where the owner can lock a user's tokens for a specified duration.
     - **Mintable:** Only the contract owner can mint new tokens, up to a maximum supply limit.
     - **Burnable:** Users should be able to burn their own tokens, reducing the total supply.
-    Make use of inheritance, modifiers, events, and advanced data types in Solidity.
+    - Make use of inheritance, modifiers, events, and advanced data types in Solidity.
    - File: `Exercise17`
 
  **Exercise 18: Hardhat Deployment and Testing**
@@ -37,7 +37,7 @@ This repository contains assignments for Week 3 of the Blockchain Learning curri
     1. Deposit traditional ERC-20 tokens and get an equivalent amount of "AdvancedToken" in return.
     2. Lend their "AdvancedToken" to earn interest.
     3. Borrow against their "AdvancedToken" holdings.
- Sketch out the primary smart contracts needed, their primary functions, and how they interact, code is not needed, just provide a HLD.
+    4. Sketch out the primary smart contracts needed, their primary functions, and how they interact, code is not needed, just provide a HLD.
    - File: `Exercise20`
 
 ## Test the Code:
