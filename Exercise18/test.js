@@ -1,4 +1,5 @@
 const { assert } = require('chai');
+const { artifacts } = require('hardhat');
 
 const AdvancedToken = artifacts.require('Advancedtoken');
 
