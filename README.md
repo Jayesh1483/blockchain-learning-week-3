@@ -22,7 +22,7 @@ This repository contains assignments for Week 3 of the Blockchain Learning curri
         3. Users can burn their tokens, reflecting the reduced total supply.
         4. Tokens can be locked and unlocked correctly.
         5. Locked tokens cannot be transferred..
-   - File: `Exercise18`
+ - File: `Exercise18`
   
 **Exercise 19:  Debugging Scenario**
 - **Problem Statement:** Users are able to burn tokens even if tokens are locked. Your task:
