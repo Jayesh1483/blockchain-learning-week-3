@@ -14,7 +14,7 @@ This repository contains assignments for Week 3 of the Blockchain Learning curri
    - File: `Exercise17`
 
  **Exercise 18: Hardhat Deployment and Testing**
-   - **Problem Statement:** Deploy the "AdvancedToken" contract onto the Hardhat Network and write unit tests to ensure functionalities. Tests should also ensure error scenarios are handled correctly. For       instance, non-owners shouldn't be able to mint tokens.
+   - **Problem Statement:** Deploy the "AdvancedToken" contract onto the Hardhat Network and write unit tests to ensure functionalities. Tests should also ensure error scenarios are handled correctly. For       -     - instance, non-owners shouldn't be able to mint tokens.
     - **Deployment:** Write a Hardhat script to deploy your contract.
     - **Unit Testing:** Write tests to ensure:
         1. Tokens are minted correctly and reflected in the balance.
