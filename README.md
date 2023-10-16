@@ -30,7 +30,7 @@ This repository contains assignments for Week 3 of the Blockchain Learning curri
     2. Write a unit test in Hardhat that simulates this error.
     3. Debug and fix the issue in the "AdvancedToken" contract.
     4. Document the debugging steps and the solution you implemented.
-   - File: `Exercise19`
+   -  File: `Exercise19`
 
 **Exercise 20: DApp Conceptualization**
 - **Problem Statement:** Based on your enhanced ERC-20 token, conceptualize a decentralized banking platform. Users should be able to:
