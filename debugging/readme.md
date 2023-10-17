@@ -1,7 +1,7 @@
 ## Identifying Potential Reasons for the Bug:
 The burn function is not checking if the tokens are locked before allowing the burning operation. There is no check on whether the tokens are locked in the burn function, allowing users to burn tokens even if they are locked.
 
-## Writing a Unit Test in Hardhat:
+## Test Script in Hardhat:
 The test.js file has been attached to deubg the errors in the code. 
 
 ```it("Should not allow burning of locked tokens", async function() {
@@ -25,6 +25,6 @@ To fix the issue, we need to add a check in the burn function to ensure that tok
     emit Transfer(msg.sender, address(0), _amount);
 }
 ```
-## Documenting the Debugging Steps and Solution:
+## Debugging Steps and Solution:
 To debug the issue, we identified that the burn function was not checking for locked tokens. We created a test file that simulated the scenario. After identifying the issue, we added a check in the burn function to ensure that tokens cannot be burned if they are locked. Finally, we re-ran the test file to ensure that the fix was effective.
 
